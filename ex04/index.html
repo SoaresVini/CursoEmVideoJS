@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            padding: 0;
+            margin: 10px;
+            background-color: rgba(88, 170, 247, 0.87);
+            color:black;
+            font: italic bold 1em 'Times New Roman';
+        }
+        #nome{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Iniciando estudos DOM</h1>
+    <p class="text">Aqui vai o resultado </p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+    <div id="nome" name="nome">leite</div>
+
+   
+</body>
+
+    <script>
+
+            var corpo = window.document.body
+            var msg = document.getElementById('msg')
+            var h1 = document.getElementsByTagName('h1')[0]
+            var n = document.getElementsByName('nome')[0]
+
+            corpo.style.backgroundColor = "red"
+            msg.style.backgroundColor = 'green'
+            h1.style.backgroundColor = "red"
+            n.style.width = "100px"
+            n.style.height = "100px"
+            n.style.border = "2px solid black"
+            n.style.borderRadius = "10px"
+
+            
+
+            //document.write('Esta escrito: ' + p1.innerText)
+
+            var d = window.document.querySelector('.text')
+            d.style.backgroundColor =  'blue'
+
+
+
+    </script>
+</html>

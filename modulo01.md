@@ -55,6 +55,10 @@ Comentario
 
 Variaveis:
 
+    prompt - Input pela telinha
+    Alert - Mostrar pela telinha
+    confirm - Ok , Cancela pela telinha
+
     São espaços da memoria do computador, que possuem nomes diferentes 
 
     var identificador = valor(atribuição)
@@ -99,15 +103,167 @@ Variaveis:
         Array
     Function
 
-    typeof ver o tipo de uma variavel
+     typeof ver o tipo de uma variavel
 
     Fracamente Tipada
 
-    Conversão - Casting
+--------------Conversão Casting------------------------
+   
+    ==================Number=========================
 
     parseInt(window.prompt('Digiue o 1° Num')) - String para um num Inteiro
+
     parseFloat(window.prompt('Digiue o 2° Num')) - String para num Float
 
     number() - String para um numero
 
+    var n = 1545.5
+
+    n1.toFixed(2) - casas depois da virgula 
+
+    n1.toFixed(2).replece()
+
+    n1.toLocaleString('pr-BR',{style: 'currency',currency:'BRL'}) - transforma um valor em uma string que caracteristicas monetarias
+
+
+    ==================String=========================
+
+    String(n)
+
+    n.toString
+
+    Template String : `O Aluno ${nome} com ${idade} anos tirou ${nota}`
+
+    Concatenação : 'O Jovem ' + nome + ' com ' + idade + ' anos tirou '+ nota 
+
+    var s = 'js'
+
+    s.length - n° de caracteres da string
+
+    s.toUpperCase() - Todas MAIÚSCULAS
+
+    s.toLowerCase() - Todas minusculas
+
+    ---------------------------Operadores-----------------------------
+
+
+    Aritimetico/relacionais/logicos
+
+    =========================Aritméticos/ Atribuição=========================
+
+    + - Mais
+    - - menos
+    * - Multiplicação
+    / - Divisão
+    % - resto da divisão
+    ** - Potencia
+
+    = - recebe
+
+        =====Ordem de precedencia=====
+
+        ()
+
+        * / % - da esquerda para a direrita
+
+        + - 
+
+        =====Simplificação=====
+        
+        n Operador= 5 
+
+        =====Incremento=====
+
+        n += 1 - n++
+        n -= 1 - n--
+
+
+    =========================relacionais=========================
+
+    Da esquerda para a direita
+
+    < > menor que , maior que 
+    >= maior ou igual
+    <= menor ou igual
+    == igual - pode ser de tipos diferentes 
+    != diferente
+
+        =============Identidade - tipo + valor===============
+
+        5 === '5' - false
+        5 !== '5' - true
+
+
+    =========================logicos=========================
+
+    ! - nao
+    && - e
+    || - ou
+     
+    !/&&/||
+
+
+    =========================ternario=========================
+
+    teste ? true : false - Tipo um if mas é um operador 
+
+    
+
+
+    ---------------------------Document Object model(Dom)-----------------------------
+
+    =========================Árvore DOM=========================
+
+            location
+
+
+    Window  Document  html - TODOS elementos que estão na pagina/
+
+
+            history
+
+    
+    =========================Selecionando Elementos=========================
+
+    [] - seleciono qual tag eu quero se tiver varias iguais
+
+    Posso mudar qualquer tag pelo Js usando o CSS 
+
+    var.style.OQUEEUQUISER
+    
+        ==========Por Marca==========
+
+            document.getElementsByTagName()
+
+        ==========Por ID==========
+            
+            document.getElementById
+
+        ==========Por name==========
+
+            document.getElementsByName
+
+        ==========Por Classe==========
+
+            document.getElementsByClassName
+
+        ==========Seletor==========
+
+            document.querySelector()
+            document.querySelectorAll()
+
+            Posso selecionar da mesma forma que eu faço no css
+
+
+=========================Eventos Domm=========================
+
+Coisas que eu posso fazre com o mouse
+
+function acao(parametros){ 
+
+}
+
+
+
+    
 
