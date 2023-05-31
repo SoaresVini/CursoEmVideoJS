@@ -22,11 +22,7 @@ netscape Contrata a Ecma e padronizou o JS que se tornou o EcmaJS - versão padr
 
 mozilla - Firefox
 
-<<<<<<< HEAD
-Google o V8 Js no Chome 
-=======
-Google - o V8 Js no Chome 
->>>>>>> 0de44f7b14e70800c6b0b63a5995dc278ecd7977
+Google - V8 Js no Chome 
 
 node - roda o JS fora do navegador
 
