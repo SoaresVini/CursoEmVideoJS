@@ -22,7 +22,11 @@ netscape Contrata a Ecma e padronizou o JS que se tornou o EcmaJS - versão padr
 
 mozilla - Firefox
 
+<<<<<<< HEAD
 Google o V8 Js no Chome 
+=======
+Google - o V8 Js no Chome 
+>>>>>>> 0de44f7b14e70800c6b0b63a5995dc278ecd7977
 
 node - roda o JS fora do navegador
 
@@ -257,6 +261,7 @@ Variaveis:
 
 =========================Eventos Domm=========================
 
+<<<<<<< HEAD
 Posso setar o evento pelo html 
 
 Ex. <input type="button" value="somar" id="btn" onclick="clicar()" >
@@ -274,6 +279,9 @@ Possuem inumeros eventos : https://developer.mozilla.org/pt-BR/docs/Web/Events
 Funções são colocadas em blocos:
 
 function ação(parametros){ 
+=======
+function acao(parametros){ 
+>>>>>>> 0de44f7b14e70800c6b0b63a5995dc278ecd7977
 
 }
 
