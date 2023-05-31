@@ -257,7 +257,6 @@ Variaveis:
 
 =========================Eventos Domm=========================
 
-<<<<<<< HEAD
 Posso setar o evento pelo html 
 
 Ex. <input type="button" value="somar" id="btn" onclick="clicar()" >
@@ -275,12 +274,8 @@ Possuem inumeros eventos : https://developer.mozilla.org/pt-BR/docs/Web/Events
 Funções são colocadas em blocos:
 
 function ação(parametros){ 
-=======
-function acao(parametros){ 
->>>>>>> 0de44f7b14e70800c6b0b63a5995dc278ecd7977
 
 }
-
 
 ---------------------------Estrutura Condiconal-----------------------------
 
