@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando valores</title>
+
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        #txt1{
+            margin: 10px;
+        }
+
+        #txt2{
+            margin-bottom: 10px;
+        }
+
+        #btn{
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 70px;
+            height: 30px;  
+            cursor: pointer;
+
+        }
+
+        #res{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+
+        }
+    </style> 
+
+</head>
+<body>
+
+    <h1>Somando valores</h1>
+
+    <div id="res" >Result</div>
+    <input type="number" name="txt1" id="txt1">
+    <input type="number" name="txt2" id="txt2">
+    <input type="button" value="somar" id="btn" onclick="clicar()" >
+    
+</body>
+
+    <script>
+
+    function clicar(){
+        
+        var txt1 = document.querySelector('#txt1')
+        var txt2 = document.querySelector('#txt2')
+        var res = document.querySelector('#res')
+        var n1 = Number(txt1.value)
+        var n2 = Number(txt2.value)
+
+        var s = n1 + n2
+
+        res.innerHTML = `${n1} + ${n2} = ${s}`
+
+
+    }
+
+    </script>
+</html>

@@ -6,29 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos Dom</title>
     <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
         #area{
             display: flex;
             align-items: center;
             justify-content: center;
             font-family: Arial, Helvetica, sans-serif;
+            border-radius: 30px;
             font: normal, 1em ;
             height: 200px;
             width: 200px;
-            background-color: rgb(7, 156, 7);
+            background-color: red;
             color: white;
+            cursor: pointer;
         }
+
 
     </style>
 </head>
 <body>
 
-    <div id="area" >
-        Intereja.......
+    <div id="area">
+        Interaja.......
     </div>
     
 </body>
 
     <script>
+
+        var a = document.querySelector('#area')
+
+        a.addEventListener('click',clicar)
+        a.addEventListener('mouseenter',entrar)
+        a.addEventListener('mouseout', sair)
+        
+        function clicar(){
+             a.innerText = 'Clicou!!'
+             a.style.background = 'red'
+             a.style.transform = 'rotate(180deg)'
+        }
+
+        function entrar(){
+            a.innerText = 'Entrou!!'
+            a.style.background = 'green'
+            a.style.transform = 'rotate(0)'
+        }
+
+        function sair(){
+            a.innerText = 'Saiu!!'
+            a.style.background = 'blue'
+            a.style.transform = 'rotate(340deg)'
+        }
         
     </script>
 </html>

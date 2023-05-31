@@ -22,9 +22,9 @@ netscape Contrata a Ecma e padronizou o JS que se tornou o EcmaJS - versão padr
 
 mozilla - Firefox
 
-Google - O pica - o V8 Js no Chome 
+Google o V8 Js no Chome 
 
-node - js que sai o Js fora do Chome 
+node - roda o JS fora do navegador
 
 EcmaScrpt
 
@@ -257,11 +257,71 @@ Variaveis:
 
 =========================Eventos Domm=========================
 
-Coisas que eu posso fazre com o mouse
+Posso setar o evento pelo html 
 
-function acao(parametros){ 
+Ex. <input type="button" value="somar" id="btn" onclick="clicar()" >
+
+
+ou  eu posso fazer pelo JS
+
+    var a = document.querySelector('#area')
+
+    a.addEventListener('click',clicar)
+
+Possuem inumeros eventos : https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+
+Funções são colocadas em blocos:
+
+function ação(parametros){ 
 
 }
+
+
+---------------------------Estrutura Condiconal-----------------------------
+
+=========================Condicional Padrão=========================
+
+    if (Condição){
+        true
+    }else{
+        false
+    }
+=========================Condicional Aninhadas=========================
+
+ if (Condição){
+        true
+    }else{
+        if(condição) {
+            true
+        }else{
+            false
+        }
+    }
+
+
+new Date() = pega data e hora completa do dia 
+
+=========================Condição Multipla=========================
+
+switch(expressão){
+    case valor 1:
+
+        break
+    case valor 2: 
+
+        break     
+    case valor 3:
+
+        break
+    case valor 4:
+
+    default
+    
+        break
+}
+
+
 
 
 

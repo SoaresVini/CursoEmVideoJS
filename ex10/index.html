@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        #velocidade{
+            width: 50px;
+            margin: 10px;
+
+        }
+
+        #btn{
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 70px;
+            height: 30px;  
+            cursor: pointer;
+
+        }
+
+        #mul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+
+        }
+
+        #avisos{
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="mul" ></div>
+
+    <div>
+        <h1>Sistema de mutas</h1>
+        Velocidade do carro é<input type="number" name="" id="velocidade"> Km/h
+    </div>
+    
+    <input type="button" value="Verificar" id="btn" onclick="passaMulta()">
+
+    <div id="avisos"></div>
+    
+</body>
+
+    <script>
+
+
+        function passaMulta(){
+            var vel = document.querySelector('#velocidade')
+            var mul = document.querySelector('#mul')
+            var avis = document.querySelector('#aviso')
+
+            var n = vel.value
+
+            if(n < 0 ){
+                alert("Km invalido!!")
+            }else{
+                if ( n > 60){
+                    mul.innerText = "Multado"
+                }else{
+                    mul.innerText = "Continue..."
+                    avis.innerHTML = `<p>Sua Velocidade é de <strong>${vel} KM/h</strong></p>`
+
+                    avis.innerHTML = `<p>Dirija sempre com cinto de segurança!!</p>`
+
+                }
+            }
+
+        } 
+        
+    </script>
+</html>
