@@ -257,8 +257,6 @@ Variaveis:
 
 =========================Eventos Domm=========================
 
-Coisas que eu posso fazre com o mouse
-
 function acao(parametros){ 
 
 }
