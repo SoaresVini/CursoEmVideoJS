@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(44, 87, 230);
+}
+
+section{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
+#inputs #btn{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #00FF00;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#inputs #btn:hover{
+    background-color: #00CC00;
+}
+
+#nasc{
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+#nasc #text{
+    margin-left: 10px;
+}
+
+#checkBoxs{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 10px;
+}
+
+.checkbox{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+
+#msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#imagem{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+#printIdade{
+    padding: 10px;
+    margin: 10px;
+}
