@@ -301,6 +301,8 @@ function ação(parametros){
 
 new Date() = pega data e hora completa do dia 
 
+Da para pegar qualquer parte dessas
+
 =========================Condição Multipla=========================
 
 switch(expressão){
@@ -321,8 +323,52 @@ switch(expressão){
 }
 
 
+innerHTML - atualiza a tag do HTMl
+innerText - atualiza só o texto do HTML 
+
+value - pega p valor que está em uma variavel
+
+.checked - usado para radio buttons
+
+teste de qual radio foi selecionado 
+
+document.createElement cria uma tag HTML
+
+appendChild - adicona uma tag ao HTML
+
+setAttribute - passo o atributo que a tag vai receber 
 
 
+---------------------------Laços de repetição-----------------------------
 
-    
+=========================Teste Logico no inicio=========================
 
+var i = 1
+
+while ( i <= 10) {
+    console.log(`Quero Café ${i} vez`)
+    i++
+}
+
+=========================Teste Logico no final=========================
+
+var i = 1
+
+do{
+    console.log(`Quero Café ${i} vez`)
+    i++
+}while( i  <= 10)
+
+
+=========================Teste Logico com limite já estabelecido=========================
+
+for(var i = 1; i <= 5;i++ ){
+    console.log(i)
+}
+
+=========================Tipo de Variaveis=========================
+
+var - escopo global(fora do bloco)
+let - escopo local(só no bloco)
+const - não permite reatribuição ou redeclaração
+constante - não respeitando bloco e permitindo a redeclaração e reatribuição.

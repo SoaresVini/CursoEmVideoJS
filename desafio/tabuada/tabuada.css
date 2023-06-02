@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(68, 71, 233, 0.795);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+header{
+    color: white;
+}
+footer{
+    color: white;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+}
+div{
+    padding: 10px;
+    margin: 10px;
+}
+
+#input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn{
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btn:hover {
+
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
