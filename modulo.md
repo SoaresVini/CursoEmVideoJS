@@ -334,7 +334,7 @@ teste de qual radio foi selecionado
 
 document.createElement cria uma tag HTML
 
-appendChild - adicona uma tag ao HTML
+appendChild - adicona uma tag filha ao HTML
 
 setAttribute - passo o atributo que a tag vai receber 
 
@@ -372,3 +372,85 @@ var - escopo global(fora do bloco)
 let - escopo local(só no bloco)
 const - não permite reatribuição ou redeclaração
 constante - não respeitando bloco e permitindo a redeclaração e reatribuição.
+
+=========================Variaveis Compostas=========================
+
+array(vetor)
+
+uma variavel só pode receber varios valores 
+
+um estacionamento 
+
+var a = [car1, car2, car3]  - tenho 6 vagas de carro de 0 á 2
+
+
+-----------------acrescentar um valor-----------------
+
+a[3] = car4
+a.push(8)
+
+numeros de elemento de um array
+
+a.length
+
+ordena os numeros em sequencia dentro do array
+
+num.sort()
+
+
+-----------------identificar um valor que está em um vetor-----------------
+
+num1.indexOf(100)
+
+se retornar -1 é pq não existe
+
+-------------------Printar usando o for------------------------
+
+for (i = 0; i < 10; i++) {
+   num2.push(i+2)
+   console.log(`A posição ${i} tem o valor: ${num1[i]} `)
+}
+
+-------------------Printar usando o for in------------------------
+
+
+for (let pos in num1){
+    console.log(num1[pos]);
+}
+
+
+splice - subtitui uma quantidade de itens de um array
+
+pop  - adiciona um elemento no começo do array
+
+
+=========================Funções=========================
+
+
+chamada - parametros - retornos - ações
+
+--------------------Recursão-----------------------
+
+Chamar uma função nela mesma 
+
+--------------passar uma função para uma variavel---------------------------
+
+let v = function soma(n1, n2){
+    
+}
+
+==================================================
+
+HTML 5
+
+Functions 
+
+modularização
+
+RegEx
+
+JSon
+
+AJAX
+
+nodeJs

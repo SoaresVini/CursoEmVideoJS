@@ -24,7 +24,7 @@ section{
 }
 div{
     padding: 10px;
-    margin: 0px;
+    margin: 10px;
 }
 
 #input{
@@ -33,8 +33,8 @@ div{
     flex-direction: column;
 }
 
-#input > input{
-    margin-left: 10px;
+#input > input {
+    margin: 10px;
 }
 
 #btn{
@@ -54,5 +54,5 @@ div{
 }
 
 #seltab{
-    width: 100px;
+    width: 150px;
 }
